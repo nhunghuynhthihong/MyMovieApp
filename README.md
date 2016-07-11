@@ -1,63 +1,57 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Project 1 - MyMovieApp
 
-## Build generated
-build/
-DerivedData/
+MyMovieApp is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
+Time spent: 16 hours spent in total
 
-## Other
-*.moved-aside
-*.xcuserstate
+## User Stories
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
+The following **required** functionality is completed:
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] User can pull to refresh the movie list.
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-.build/
+The following **optional** features are implemented:
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
- Pods/
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [x] Implement segmented control to switch between list view and grid view.
+- [ ] Add a search bar.
+- [ ] All images fade in.
+- [ ] For the large poster, load the low-res image first, switch to high-res when complete.
+- [ ] Customize the highlight and selection effect of the cell.
+- [ ] Customize the navigation bar.
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+The following **additional** features are implemented:
 
-Carthage/Build
+- [ ] List anything else that you can get done to improve the app functionality!
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+## Video Walkthrough
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough](walkthrough.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright 2016 Nhung Huynh
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
