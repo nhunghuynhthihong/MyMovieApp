@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		6B2F71F61D2E58AB00320B43 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F71F51D2E58AB00320B43 /* DetailsViewController.swift */; };
 		6B4A08AE1D33809F001335F0 /* TopRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A08AD1D33809F001335F0 /* TopRateViewController.swift */; };
-		6B4A08B01D338204001335F0 /* MovieTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A08AF1D338204001335F0 /* MovieTabBarController.swift */; };
 		6B4A08B21D33864B001335F0 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A08B11D33864B001335F0 /* UIColor+App.swift */; };
 		6B4A08B41D339510001335F0 /* TopRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A08B31D339510001335F0 /* TopRateCell.swift */; };
+		6B4A08B81D33B896001335F0 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A08B71D33B896001335F0 /* Networking.swift */; };
 		6B54B0831D2BEF2F00EDB778 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B54B0821D2BEF2F00EDB778 /* MovieCell.swift */; };
+		6B8E2C701D50593C002C2193 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E2C6F1D50593C002C2193 /* Movie.swift */; };
 		6BBB48261D329FF3000DE4B9 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB48251D329FF3000DE4B9 /* InfiniteScrollActivityView.swift */; };
+		6BD6F9401D5827D60025D23C /* MovieTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6F93F1D5827D60025D23C /* MovieTabBarController.swift */; };
 		6BDEE39A1D2BE33D00F06D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEE3991D2BE33D00F06D16 /* AppDelegate.swift */; };
 		6BDEE39F1D2BE33D00F06D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDEE39D1D2BE33D00F06D16 /* Main.storyboard */; };
 		6BDEE3A11D2BE33D00F06D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDEE3A01D2BE33D00F06D16 /* Assets.xcassets */; };
@@ -26,11 +28,13 @@
 		1A7FA60E6474475036405134 /* Pods-MyMovieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMovieApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMovieApp/Pods-MyMovieApp.release.xcconfig"; sourceTree = "<group>"; };
 		6B2F71F51D2E58AB00320B43 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../DetailsViewController.swift; sourceTree = "<group>"; };
 		6B4A08AD1D33809F001335F0 /* TopRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRateViewController.swift; sourceTree = "<group>"; };
-		6B4A08AF1D338204001335F0 /* MovieTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTabBarController.swift; sourceTree = "<group>"; };
 		6B4A08B11D33864B001335F0 /* UIColor+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		6B4A08B31D339510001335F0 /* TopRateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRateCell.swift; sourceTree = "<group>"; };
+		6B4A08B71D33B896001335F0 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		6B54B0821D2BEF2F00EDB778 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		6B8E2C6F1D50593C002C2193 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6BBB48251D329FF3000DE4B9 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
+		6BD6F93F1D5827D60025D23C /* MovieTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieTabBarController.swift; path = ../../../../.Trash/MovieTabBarController.swift; sourceTree = "<group>"; };
 		6BDEE3961D2BE33D00F06D16 /* MyMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDEE3991D2BE33D00F06D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BDEE39E1D2BE33D00F06D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8E2C691D50554A002C2193 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A08AD1D33809F001335F0 /* TopRateViewController.swift */,
+				6BD6F93F1D5827D60025D23C /* MovieTabBarController.swift */,
+				6B2F71F51D2E58AB00320B43 /* DetailsViewController.swift */,
+				6BDEE3AB1D2BE51E00F06D16 /* MoviesViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6B8E2C6A1D50555A002C2193 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B54B0821D2BEF2F00EDB778 /* MovieCell.swift */,
+				6B4A08B31D339510001335F0 /* TopRateCell.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		6B8E2C6B1D5055B1002C2193 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A08B71D33B896001335F0 /* Networking.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		6B8E2C6C1D5055FA002C2193 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BBB48251D329FF3000DE4B9 /* InfiniteScrollActivityView.swift */,
+				6B4A08B11D33864B001335F0 /* UIColor+App.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6B8E2C6D1D50565F002C2193 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E2C6F1D50593C002C2193 /* Movie.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6B8E2C6E1D50581F002C2193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BDEE3A51D2BE33D00F06D16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6BDEE38D1D2BE33D00F06D16 = {
 			isa = PBXGroup;
 			children = (
@@ -75,19 +132,16 @@
 		6BDEE3981D2BE33D00F06D16 /* MyMovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				6B8E2C6E1D50581F002C2193 /* Supporting Files */,
+				6B8E2C6D1D50565F002C2193 /* Models */,
+				6B8E2C6C1D5055FA002C2193 /* Extensions */,
+				6B8E2C6B1D5055B1002C2193 /* API */,
+				6B8E2C6A1D50555A002C2193 /* Custom Views */,
+				6B8E2C691D50554A002C2193 /* View Controllers */,
 				6BDEE3991D2BE33D00F06D16 /* AppDelegate.swift */,
 				6BDEE39D1D2BE33D00F06D16 /* Main.storyboard */,
 				6BDEE3A01D2BE33D00F06D16 /* Assets.xcassets */,
 				6BDEE3A21D2BE33D00F06D16 /* LaunchScreen.storyboard */,
-				6BDEE3A51D2BE33D00F06D16 /* Info.plist */,
-				6B2F71F51D2E58AB00320B43 /* DetailsViewController.swift */,
-				6BDEE3AB1D2BE51E00F06D16 /* MoviesViewController.swift */,
-				6B54B0821D2BEF2F00EDB778 /* MovieCell.swift */,
-				6BBB48251D329FF3000DE4B9 /* InfiniteScrollActivityView.swift */,
-				6B4A08AD1D33809F001335F0 /* TopRateViewController.swift */,
-				6B4A08AF1D338204001335F0 /* MovieTabBarController.swift */,
-				6B4A08B11D33864B001335F0 /* UIColor+App.swift */,
-				6B4A08B31D339510001335F0 /* TopRateCell.swift */,
 			);
 			path = MyMovieApp;
 			sourceTree = "<group>";
@@ -116,12 +170,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BDEE3A81D2BE33D00F06D16 /* Build configuration list for PBXNativeTarget "MyMovieApp" */;
 			buildPhases = (
-				2060AFB69C656118DE169043 /* 📦 Check Pods Manifest.lock */,
+				93FA54EB3A8B0BD3F4DEE178 /* [CP] Check Pods Manifest.lock */,
+				2060AFB69C656118DE169043 /* [CP] Check Pods Manifest.lock */,
 				6BDEE3921D2BE33D00F06D16 /* Sources */,
 				6BDEE3931D2BE33D00F06D16 /* Frameworks */,
 				6BDEE3941D2BE33D00F06D16 /* Resources */,
-				CFBCF180AC5BCC29BB8E6ADE /* 📦 Embed Pods Frameworks */,
-				DCB0522B9AF15EDA23D69075 /* 📦 Copy Pods Resources */,
+				CFBCF180AC5BCC29BB8E6ADE /* [CP] Embed Pods Frameworks */,
+				DCB0522B9AF15EDA23D69075 /* [CP] Copy Pods Resources */,
+				CE9D5450F54A6D79C7DB03BA /* 📦 Embed Pods Frameworks */,
+				8E67CE8CA58CA1F7F29394E0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +236,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2060AFB69C656118DE169043 /* 📦 Check Pods Manifest.lock */ = {
+		2060AFB69C656118DE169043 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +251,37 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CFBCF180AC5BCC29BB8E6ADE /* 📦 Embed Pods Frameworks */ = {
+		8E67CE8CA58CA1F7F29394E0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMovieApp/Pods-MyMovieApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FA54EB3A8B0BD3F4DEE178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9D5450F54A6D79C7DB03BA /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,14 +296,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMovieApp/Pods-MyMovieApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCB0522B9AF15EDA23D69075 /* 📦 Copy Pods Resources */ = {
+		CFBCF180AC5BCC29BB8E6ADE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMovieApp/Pods-MyMovieApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB0522B9AF15EDA23D69075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4A08B41D339510001335F0 /* TopRateCell.swift in Sources */,
+				6B4A08B81D33B896001335F0 /* Networking.swift in Sources */,
+				6BD6F9401D5827D60025D23C /* MovieTabBarController.swift in Sources */,
 				6BBB48261D329FF3000DE4B9 /* InfiniteScrollActivityView.swift in Sources */,
 				6BDEE39A1D2BE33D00F06D16 /* AppDelegate.swift in Sources */,
 				6BDEE3AC1D2BE51E00F06D16 /* MoviesViewController.swift in Sources */,
@@ -239,7 +343,7 @@
 				6B4A08AE1D33809F001335F0 /* TopRateViewController.swift in Sources */,
 				6B4A08B21D33864B001335F0 /* UIColor+App.swift in Sources */,
 				6B2F71F61D2E58AB00320B43 /* DetailsViewController.swift in Sources */,
-				6B4A08B01D338204001335F0 /* MovieTabBarController.swift in Sources */,
+				6B8E2C701D50593C002C2193 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
